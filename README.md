@@ -1,6 +1,7 @@
 # Tic-Tac-Toe-using-HTML-CSS-JS
 In this project I have implemented Closures, IIFE(Immediately Invoked Function Expression), Factories, Callbacks, DOM Manipulation, And event handling.
 My main purpose here is code maintainance, code reusability, encapsulation, avoiding global encapsulations.
+
 # Lets discuss them in little depth
 
 #Immediately invoked function expression 
@@ -11,9 +12,7 @@ with this functions we can manipulate the board within the module and we return 
 similar with the 'Game' module it is also an IIFE, 
 
 let Game=(()=>{
-.
-.
-.
+
 })();
 
 we have 'resetGameOver', 'start', 'evnetHandler', 'reset' functions which serves their specific purpose and are being returned 
@@ -21,9 +20,9 @@ for closure property,
 
 provides features like:
 
-# Encapsulation,
-# Avoid gloabal scope pollutions
-# Immediate execution of code
+- Encapsulation,
+- Avoid gloabal scope pollutions
+- Immediate execution of code
 
 # Object factory
 After that i have created a factory that returns the player properties: 'name', 'mark' and 'score' 
@@ -66,7 +65,7 @@ in this code snippet, the logic is, we get the index of clicked box and render t
 
 Main logic of this game is I made the game board as an array
 
-#    let gameBoardArray = ['', '', '', '', '', '', '', '', '']
+ let gameBoardArray = ['', '', '', '', '', '', '', '', '']
 
 which is empty at initial 
 then from above event handling rendering part is done 
