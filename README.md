@@ -1,4 +1,7 @@
 # Tic-Tac-Toe-using-HTML-CSS-JS
+link to the netlify deployed project:
+https://65ce3e724f74420ea7581a91--animated-brioche-87c2d8.netlify.app/?fbclid=IwAR30eyagFyujw5_BD-rcQp96WuUeEzzrQK4tRuj5gmhq4qa2enCFmVm43JI
+
 In this project I have implemented Closures, IIFE(Immediately Invoked Function Expression), Factories, Callbacks, DOM Manipulation, And event handling.
 My main purpose here is code maintainance, code reusability, encapsulation, avoiding global encapsulations.
 
